@@ -1,0 +1,200 @@
+# Modello di mkdocs.yml (italiano): lo usa genera_sito.py, che scrive mkdocs.yml.
+# Non modificare mkdocs.yml a mano.
+site_name: Algoritmi euristici · Fabio Furini
+site_description: >-
+  Dispense di algoritmi euristici per i problemi di ottimizzazione combinatoria: bound primali e duali, euristiche costruttive, ricerca locale, metaeuristiche ed euristiche MIP, applicate ai problemi di zaino, di packing, di routing, di scheduling e di colorazione, con esercizi, app interattive e notebook Colab.
+site_author: Fabio Furini
+site_url: https://fabiofurini.github.io/algoritmi-euristici/
+repo_url: https://github.com/fabiofurini/algoritmi-euristici
+copyright: >-
+  &copy; 2026 Fabio Furini — testi e figure con licenza
+  <a href="https://creativecommons.org/licenses/by/4.0/deed.it">CC BY 4.0</a>,
+  codice con licenza
+  <a href="https://github.com/fabiofurini/algoritmi-euristici/blob/main/LICENSE-CODE">MIT</a>
+
+theme:
+  name: material
+  language: it
+  icon:
+    logo: material/map-marker-path
+  font:
+    text: Source Sans 3
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Tema scuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Tema chiaro
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+# le pagine delle singole app non stanno nel menu: il laboratorio è una voce sola
+not_in_nav: |
+  /laboratorio/*.md
+  !/laboratorio/index.md
+
+plugins:
+  - search:
+      lang: it
+
+extra:
+  social:
+    - icon: material/web
+      link: https://fabiofurini.github.io/
+      name: Fabio Furini — sito personale
+    - icon: material/school
+      link: https://www.diag.uniroma1.it/
+      name: DIAG — Sapienza Università di Roma
+    - icon: fontawesome/brands/github
+      link: https://github.com/fabiofurini
+      name: GitHub
+    - icon: material/chart-timeline-variant
+      link: https://fabiofurini.github.io/laboratorio-ricerca-operativa/
+      name: Laboratorio di Ricerca Operativa
+    - icon: material/vector-triangle
+      link: https://fabiofurini.github.io/programmazione-lineare/
+      name: Programmazione lineare
+    - icon: material/vector-polygon
+      link: https://fabiofurini.github.io/modellazione-mip/
+      name: Modellazione MIP
+    - icon: material/vector-polyline
+      link: https://fabiofurini.github.io/programmazione-lineare-intera/
+      name: Programmazione lineare intera
+    - icon: material/math-integral
+      link: https://fabiofurini.github.io/analisi-matematica-1/
+      name: Analisi Matematica 1
+    - icon: material/matrix
+      link: https://fabiofurini.github.io/algebra-lineare/
+      name: Algebra lineare
+    - icon: material/chart-bell-curve
+      link: https://fabiofurini.github.io/ottimizzazione-convessa/
+      name: Ottimizzazione convessa
+    - icon: material/code-braces
+      link: https://fabiofurini.github.io/algoritmi/
+      name: Algoritmi
+    - icon: material/graph-outline
+      link: https://fabiofurini.github.io/ottimizzazione-su-reti/
+      name: Ottimizzazione su reti
+    - icon: material/hexagon-multiple-outline
+      link: https://fabiofurini.github.io/ottimizzazione-combinatoria/
+      name: Ottimizzazione combinatoria
+  alternate:
+    - name: Italiano
+      link: https://fabiofurini.github.io/algoritmi-euristici/
+      lang: it
+    - name: English
+      link: https://fabiofurini.github.io/heuristic-algorithms/
+      lang: en
+
+extra_css:
+  - stylesheets/collana.css
+  - stylesheets/extra.css?v=a25c6f8414
+  - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraph.css
+  - stylesheets/interattivi.css?v=c51ac2286b
+  - stylesheets/quiz.css?v=9e3792b41c
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      title: In questa pagina
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - javascripts/cloudflare-analytics.js?v=bff73345a1
+  - javascripts/mathjax.js?v=2f2f0d6685
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  # grafici interattivi: JSXGraph, il motore, poi le ricette (gi-*.js, le aggiunge genera_sito.py)
+  - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraphcore.js
+  - javascripts/interattivi.js?v=2687ca69e3
+  - javascripts/gi-comune.js?v=40df75e3e5
+  - javascripts/gi-oc-0.js?v=30a21b81a8
+  - javascripts/gi-oc-a.js?v=bcbc333a91
+  - javascripts/gi-oc-b.js?v=bec7102113
+  - javascripts/gi-oc-f.js?v=bfc6dc79f0
+  - javascripts/quiz.js?v=be7fae2b85
+
+nav:
+  - Home: index.md
+  - Euristiche:
+      - "1. Definizioni": heuristics.md
+      - "2. Euristiche costruttive":
+          - constructive-heuristics/index.md
+          - "I problemi e le ipotesi · Il paradigma greedy": constructive-heuristics/i-problemi-e-le-ipotesi.md
+          - "Il problema dello zaino 0/1: quale ordinamento?": constructive-heuristics/il-problema-dello-zaino-0-1-quale-ordinamento.md
+          - "Il problema del bin packing: prima ordinare, poi riempire": constructive-heuristics/il-problema-del-bin-packing-prima-ordinare-poi-riempire.md
+          - "Scheduling su macchine parallele: prima i lavori più lunghi": constructive-heuristics/scheduling-su-macchine-parallele-prima-i-lavori-piu-lunghi.md
+          - "Il problema del commesso viaggiatore: accodare o inserire?": constructive-heuristics/il-problema-del-commesso-viaggiatore-accodare-o-inserire.md
+          - "Colorazione dei vertici: greedy e DSATUR": constructive-heuristics/colorazione-dei-vertici-greedy-e-dsatur.md
+          - "Costruzione randomizzata": constructive-heuristics/costruzione-randomizzata.md
+          - "Look-ahead e regret": constructive-heuristics/look-ahead-e-regret.md
+          - "Che cosa danno le euristiche costruttive, e che cosa non danno": constructive-heuristics/che-cosa-danno-le-euristiche-costruttive-e-che-cosa-non-dann.md
+          - "Errori tipici · In sintesi": constructive-heuristics/errori-tipici.md
+      - "3. Ricerca locale":
+          - local-search/index.md
+          - "I problemi, le ipotesi e le soluzioni di partenza": local-search/i-problemi-le-ipotesi-e-le-soluzioni-di-partenza.md
+          - "Ricerca locale: lo schema · Intorni per i quattro problemi": local-search/ricerca-locale-lo-schema.md
+          - "First improvement e best improvement": local-search/first-improvement-e-best-improvement.md
+          - "Valutare una mossa in modo incrementale": local-search/valutare-una-mossa-in-modo-incrementale.md
+          - "TSP: 2-opt e Or-opt": local-search/tsp-2-opt-e-or-opt.md
+          - "P||Cmax: move e swap": local-search/p-cmax-move-e-swap.md
+          - "Paesaggi piatti e obiettivi ausiliari": local-search/paesaggi-piatti-e-obiettivi-ausiliari.md
+          - "KP: ammissibilità e penalità": local-search/kp-ammissibilita-e-penalita.md
+          - "Variable neighbourhood descent": local-search/variable-neighbourhood-descent.md
+          - "Ricerca locale multi-start": local-search/ricerca-locale-multi-start.md
+          - "Errori tipici · In sintesi": local-search/errori-tipici.md
+      - "4. Metaeuristiche":
+          - metaheuristics/index.md
+          - "I problemi e le ipotesi": metaheuristics/i-problemi-e-le-ipotesi.md
+          - "Come uscire da un ottimo locale · Simulated annealing": metaheuristics/come-uscire-da-un-ottimo-locale.md
+          - "Tabu search": metaheuristics/tabu-search.md
+          - "Iterated local search": metaheuristics/iterated-local-search.md
+          - "Variable neighbourhood search": metaheuristics/variable-neighbourhood-search.md
+          - "GRASP": metaheuristics/grasp.md
+          - "Large neighbourhood search": metaheuristics/large-neighbourhood-search.md
+          - "Metodi basati su popolazioni: algoritmi genetici e memetici": metaheuristics/metodi-basati-su-popolazioni-algoritmi-genetici-e-memetici.md
+          - "Confronto e conclusioni": metaheuristics/confronto-e-conclusioni.md
+          - "Errori tipici · In sintesi": metaheuristics/errori-tipici.md
+          - "Bibliografia": metaheuristics/bibliografia.md
+      - "5. Euristiche MIP": mip-heuristics-classical.md
+  - Esercizi:
+      - esercizi/index.md
+      - "1. Definizioni": esercizi/heuristics.md
+      - "2. Euristiche costruttive": esercizi/constructive-heuristics.md
+      - "3. Ricerca locale": esercizi/local-search.md
+      - "4. Metaeuristiche": esercizi/metaheuristics.md
+      - "5. Euristiche MIP": esercizi/mip-heuristics-classical.md
+  - Quiz: autovalutazione.md
+  - Laboratorio: laboratorio/index.md
+  - Materiale:
+      - materiale.md
+      - Notebook Colab: notebook.md
+  - Indice: indice.md
