@@ -31,9 +31,9 @@ Prerequisiti: [Ottimizzazione combinatoria](https://fabiofurini.github.io/ottimi
 <!-- collana-app -->
 ## Provalo subito
 
-Il TSP con nearest neighbour e 2-opt: il giro si costruisce città per città, poi il 2-opt lo migliora; trascina le città nel piano.
+Il simulated annealing sul TSP a 20 città: il miglior giro trovato sopra quello ottimo e la curva della lunghezza, che accetta peggioramenti finché la temperatura è alta. Premi «Esegui» per seguirlo un'iterazione alla volta, oppure passa alla tabu search.
 
-<div class="gi" data-grafico="oc-tsp"></div>
+<div class="gi" data-grafico="oc-meta-tsp" data-vetrina="2"></div>
 
 [:material-gesture-tap: Altre app nel laboratorio](laboratorio/index.md){ .md-button }
 <!-- /collana-app -->
