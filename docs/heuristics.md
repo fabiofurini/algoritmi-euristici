@@ -14,7 +14,7 @@ title: "Algoritmi euristici: definizioni"
 
     - Dal modulo <em>Problemi di ottimizzazione combinatoria</em>, il [problema dello zaino 0/1](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/knapsack/il-problema-dello-zaino-0-1/), il [problema del bin packing](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/bin-packing/il-problema-del-bin-packing/), il [problema del commesso viaggiatore](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/tsp/il-problema-del-commesso-viaggiatore/) e [$P\,||\,C_{\max}$](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/pcmax/scheduling-su-macchine-parallele-identiche/): istanze, soluzioni ammissibili e valori ottimi dei quattro problemi usati come esempi.
 
-    - Dal modulo <em>Programmazione lineare intera</em>, [Capitolo 2 «Rilassamento lineare»](https://fabiofurini.github.io/programmazione-lineare-intera/modelli-e-bound/lp-relaxation/): il rilassamento lineare come fonte di bound duali. Qui ne diamo un breve richiamo per il problema dello zaino 0/1.
+    - Dal modulo <em>Programmazione lineare intera</em>, [Capitolo 2 «Bound primali e duali»](https://fabiofurini.github.io/programmazione-lineare-intera/modelli-e-bound/lp-relaxation/): il rilassamento lineare come fonte di bound duali. Qui ne diamo un breve richiamo per il problema dello zaino 0/1.
 
 !!! chiave "Obiettivi"
 

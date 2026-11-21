@@ -26,6 +26,8 @@ title: "Euristiche costruttive"
 
     - costruire un giro del TSP con il nearest neighbour e con le euristiche di inserimento;
 
+    - colorare un grafo con la colorazione greedy e con $DSATUR$;
+
     - applicare la costruzione randomizzata, l'inserimento con regret e il metodo pilota;
 
     - confrontare i risultati con i bound duali, e spiegare quando un'euristica costruttiva fallisce.

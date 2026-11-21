@@ -16,7 +16,7 @@ title: "Euristiche MIP per i problemi classici"
 
     - Dal modulo <em>Problemi di ottimizzazione combinatoria</em>, le formulazioni dei problemi classici: i modelli del [problema dello zaino 0/1](https://fabiofurini.github.io/ottimizzazione-combinatoria/formulazioni/knapsack-formulations/), del [problema del bin packing](https://fabiofurini.github.io/ottimizzazione-combinatoria/formulazioni/bin-packing-formulations/), del [problema del commesso viaggiatore](https://fabiofurini.github.io/ottimizzazione-combinatoria/formulazioni/tsp-formulations/), di [$P\,||\,C_{\max}$](https://fabiofurini.github.io/ottimizzazione-combinatoria/formulazioni/pcmax-formulations/) e del [lot sizing](https://fabiofurini.github.io/ottimizzazione-combinatoria/formulazioni/lot-sizing-formulations/).
 
-    - Da questo modulo, i capitoli sugli algoritmi euristici, da «Algoritmi euristici: definizioni» a «Metaeuristiche»: le euristiche costruttive ($GR$, $FF$, $NN$, $LPT$), la ricerca locale e le metaeuristiche, le cui soluzioni sono i punti di partenza di questo capitolo.
+    - Da questo modulo, i capitoli sugli algoritmi euristici, da [«Algoritmi euristici: definizioni»](heuristics.md) a [«Metaeuristiche»](metaheuristics/index.md) ([«Euristiche costruttive»](constructive-heuristics/index.md), [«Ricerca locale»](local-search/index.md)): le euristiche costruttive ($GR$, $FF$, $NN$, $LPT$), la ricerca locale e le metaeuristiche, le cui soluzioni sono i punti di partenza di questo capitolo.
 
 !!! chiave "Obiettivi"
 
