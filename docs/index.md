@@ -193,6 +193,10 @@ Dieci corsi con la stessa impostazione: dispense online e in PDF, esercizi con l
 
     zaino, bin packing, colorazione, TSP, scheduling e lot sizing, risolti in tutti i modi
 
+-   :material-table-large: **[Programmazione dinamica](https://fabiofurini.github.io/programmazione-dinamica/)**
+
+    principi e algoritmi di PD per zaino, lot sizing, cambio monete e taglio delle aste
+
 -   :material-map-marker-path: **Algoritmi euristici** · *questo corso*
 
     euristiche costruttive, ricerca locale, metaeuristiche ed euristiche MIP per i problemi di ottimizzazione combinatoria
