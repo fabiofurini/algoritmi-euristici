@@ -4,6 +4,6 @@ Le dispense di algoritmi euristici per i problemi di ottimizzazione combinatoria
 
 **Sito: [fabiofurini.github.io/algoritmi-euristici](https://fabiofurini.github.io/algoritmi-euristici/)**
 
-Prerequisiti: [Ottimizzazione combinatoria](https://fabiofurini.github.io/ottimizzazione-combinatoria/) (i problemi, le loro istanze e le loro formulazioni).
+Prerequisiti: [Problemi di ottimizzazione combinatoria](https://fabiofurini.github.io/ottimizzazione-combinatoria/) (i problemi, le loro istanze e le loro formulazioni).
 
 Un corso della collana *Ricerca Operativa e Matematica* di [Fabio Furini](https://fabiofurini.github.io/) (DIAG, Sapienza Università di Roma). Contenuti CC BY 4.0, codice MIT.

@@ -5,7 +5,7 @@
 
 - **Sito e PDF.** Ogni capitolo del sito è un capitolo della dispensa, con gli stessi numeri e gli stessi colori; i capitoli lunghi sono divisi in una pagina per sezione.
 - **In testa a ogni capitolo** la barra con il PDF della dispensa, le slide, gli esercizi e le app del capitolo; in fondo, il link agli esercizi.
-- **I problemi.** Definizioni, istanze e formulazioni dei problemi stanno nel corso [Ottimizzazione combinatoria](https://fabiofurini.github.io/ottimizzazione-combinatoria/): i capitoli vi rimandano con un link.
+- **I problemi.** Definizioni, istanze e formulazioni dei problemi stanno nel corso [Problemi di ottimizzazione combinatoria](https://fabiofurini.github.io/ottimizzazione-combinatoria/): i capitoli vi rimandano con un link.
 - **Il codice.** Nelle pagine gli algoritmi sono in pseudocodice; i pulsanti «Esegui in Colab» aprono il notebook con il codice in Python e C++.
 
 I box hanno gli stessi colori della dispensa:

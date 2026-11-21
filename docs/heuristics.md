@@ -12,7 +12,7 @@ title: "Algoritmi euristici: definizioni"
 
 !!! nota "Prerequisiti"
 
-    - Dal modulo <em>Ottimizzazione combinatoria</em>, il [problema dello zaino 0/1](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/knapsack/il-problema-dello-zaino-0-1/), il [problema del bin packing](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/bin-packing/il-problema-del-bin-packing/), il [problema del commesso viaggiatore](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/tsp/il-problema-del-commesso-viaggiatore/) e [$P\,||\,C_{\max}$](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/pcmax/scheduling-su-macchine-parallele-identiche/): istanze, soluzioni ammissibili e valori ottimi dei quattro problemi usati come esempi.
+    - Dal modulo <em>Problemi di ottimizzazione combinatoria</em>, il [problema dello zaino 0/1](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/knapsack/il-problema-dello-zaino-0-1/), il [problema del bin packing](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/bin-packing/il-problema-del-bin-packing/), il [problema del commesso viaggiatore](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/tsp/il-problema-del-commesso-viaggiatore/) e [$P\,||\,C_{\max}$](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/pcmax/scheduling-su-macchine-parallele-identiche/): istanze, soluzioni ammissibili e valori ottimi dei quattro problemi usati come esempi.
 
     - Dal modulo <em>Programmazione lineare intera</em>, [Capitolo 2 «Rilassamento lineare»](https://fabiofurini.github.io/programmazione-lineare-intera/modelli-e-bound/lp-relaxation/): il rilassamento lineare come fonte di bound duali. Qui ne diamo un breve richiamo per il problema dello zaino 0/1.
 
@@ -182,7 +182,7 @@ title: "Algoritmi euristici: definizioni"
     \end{cases}
     $$
 
-- Il <strong>gap</strong> di un valore euristico $\mathscr{A}(I)$ è il gap relativo $\frac{\UB-\LB}{\LB}$ definito nel modulo <em>Ottimizzazione combinatoria</em>, [«Bound primali, bound duali e gap»](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/combinatorial-optimization/bound-primali-bound-duali-e-gap/): la differenza dei due bound divisa per il <strong>minore</strong>. Con il valore euristico al posto del bound primale diventa
+- Il <strong>gap</strong> di un valore euristico $\mathscr{A}(I)$ è il gap relativo $\frac{\UB-\LB}{\LB}$ definito nel modulo <em>Problemi di ottimizzazione combinatoria</em>, [«Bound primali, bound duali e gap»](https://fabiofurini.github.io/ottimizzazione-combinatoria/problemi-di-ottimizzazione-combinatoria/combinatorial-optimization/bound-primali-bound-duali-e-gap/): la differenza dei due bound divisa per il <strong>minore</strong>. Con il valore euristico al posto del bound primale diventa
 
     $$
     gap(I) =
