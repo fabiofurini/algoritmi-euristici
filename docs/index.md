@@ -16,7 +16,12 @@ hide:
 Materiale didattico ideato e sviluppato da **[Fabio Furini](https://fabiofurini.github.io/)**, professore
 associato al [DIAG](https://www.diag.uniroma1.it/), Sapienza Università di Roma.
 
-**Le dispense del corso, online**: algoritmi euristici per i problemi di ottimizzazione combinatoria, cioè bound primali e duali e valutazione delle euristiche, euristiche costruttive, ricerca locale, metaeuristiche ed euristiche MIP, applicate ai problemi di zaino, di packing, di routing, di scheduling e di colorazione; con definizioni, esempi svolti passo per passo, esercizi con le soluzioni, notebook Colab e app interattive.
+Il corso presenta gli algoritmi euristici per i problemi di ottimizzazione combinatoria: bound primali e
+duali e valutazione delle euristiche, euristiche costruttive, ricerca locale, metaeuristiche ed
+euristiche MIP, applicate ai problemi di zaino, di packing, di routing, di scheduling e di colorazione.
+
+Ogni capitolo ha definizioni, esempi svolti passo per passo, esercizi con le soluzioni, notebook Colab
+e app interattive.
 
 Prerequisiti: [Problemi di ottimizzazione combinatoria](https://fabiofurini.github.io/ottimizzazione-combinatoria/) per i problemi, le loro istanze e le loro formulazioni.
 
