@@ -115,7 +115,7 @@ extra:
 
 extra_css:
   - stylesheets/collana.css
-  - stylesheets/extra.css?v=ff8e75aca3
+  - stylesheets/extra.css?v=76c997ebec
   - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraph.css
   - stylesheets/interattivi.css?v=c51ac2286b
   - stylesheets/quiz.css?v=9e3792b41c
@@ -154,8 +154,11 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Euristiche:
+  - "Principi":
+      - principi.md
       - "1. Definizioni": heuristics.md
+  - "Euristiche combinatorie":
+      - euristiche-combinatorie.md
       - "2. Euristiche costruttive":
           - constructive-heuristics/index.md
           - "I problemi e le ipotesi · Il paradigma greedy": constructive-heuristics/i-problemi-e-le-ipotesi.md
@@ -194,14 +197,19 @@ nav:
           - "Confronto e conclusioni": metaheuristics/confronto-e-conclusioni.md
           - "Errori tipici · In sintesi": metaheuristics/errori-tipici.md
           - "Bibliografia": metaheuristics/bibliografia.md
+  - "Euristiche MIP":
+      - euristiche-mip.md
       - "5. Euristiche MIP": mip-heuristics-classical.md
   - Esercizi:
       - esercizi/index.md
-      - "1. Definizioni": esercizi/heuristics.md
-      - "2. Euristiche costruttive": esercizi/constructive-heuristics.md
-      - "3. Ricerca locale": esercizi/local-search.md
-      - "4. Metaeuristiche": esercizi/metaheuristics.md
-      - "5. Euristiche MIP": esercizi/mip-heuristics-classical.md
+      - "Principi":
+          - "1. Definizioni": esercizi/heuristics.md
+      - "Euristiche combinatorie":
+          - "2. Euristiche costruttive": esercizi/constructive-heuristics.md
+          - "3. Ricerca locale": esercizi/local-search.md
+          - "4. Metaeuristiche": esercizi/metaheuristics.md
+      - "Euristiche MIP":
+          - "5. Euristiche MIP": esercizi/mip-heuristics-classical.md
   - Quiz: autovalutazione.md
   - Laboratorio: laboratorio/index.md
   - Materiale:

@@ -6,7 +6,7 @@ title: "I problemi, le ipotesi e le soluzioni di partenza"
 
 <div class="info-capitolo" markdown>
 
-**Algoritmi euristici · Capitolo 3** · [:material-book-open-variant: Capitolo 3: Ricerca locale](index.md) · [:material-file-pdf-box: Dispensa (PDF)](../pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide (1/2)](../pdf/slide-local-search-1.pdf) · [:material-presentation: Slide (2/2)](../pdf/slide-local-search-2.pdf) · [:material-pencil: Esercizi: Ricerca locale](../esercizi/local-search.md) · [:material-gesture-tap: App: TSP: nearest neighbour e 2-opt](../laboratorio/tsp-nn-2opt.md)
+**Parte 2 · Euristiche combinatorie · Capitolo 3** · [:material-book-open-variant: Capitolo 3: Ricerca locale](index.md) · [:material-file-pdf-box: Dispensa (PDF)](../pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide (1/2)](../pdf/slide-local-search-1.pdf) · [:material-presentation: Slide (2/2)](../pdf/slide-local-search-2.pdf) · [:material-pencil: Esercizi: Ricerca locale](../esercizi/local-search.md) · [:material-gesture-tap: App: TSP: nearest neighbour e 2-opt](../laboratorio/tsp-nn-2opt.md)
 
 </div>
 

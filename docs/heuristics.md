@@ -6,7 +6,7 @@ title: "Algoritmi euristici: definizioni"
 
 <div class="info-capitolo" markdown>
 
-**Algoritmi euristici · Capitolo 1** · [:material-file-pdf-box: Dispensa (PDF)](pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide](pdf/slide-heuristics.pdf) · [:material-pencil: Esercizi: Definizioni](esercizi/heuristics.md)
+**Parte 1 · Principi · Capitolo 1** · [:material-file-pdf-box: Dispensa (PDF)](pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide](pdf/slide-heuristics.pdf) · [:material-pencil: Esercizi: Definizioni](esercizi/heuristics.md)
 
 </div>
 

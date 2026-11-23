@@ -4,7 +4,7 @@
 ## Come usare queste dispense
 
 - **Sito e PDF.** Ogni capitolo del sito è un capitolo della dispensa, con gli stessi numeri e gli stessi colori; i capitoli lunghi sono divisi in una pagina per sezione.
-- **In testa a ogni capitolo** la barra con il PDF della dispensa, le slide, gli esercizi e le app del capitolo; in fondo, il link agli esercizi.
+- **In testa a ogni capitolo** la barra con la parte, il PDF della dispensa, le slide, gli esercizi e le app del capitolo; in fondo, il link agli esercizi.
 - **I problemi.** Definizioni, istanze e formulazioni dei problemi stanno nel corso [Problemi di ottimizzazione combinatoria](https://fabiofurini.github.io/ottimizzazione-combinatoria/): i capitoli vi rimandano con un link.
 - **Il codice.** Nelle pagine gli algoritmi sono in pseudocodice; i pulsanti «Esegui in Colab» aprono il notebook con il codice in Python e C++.
 
@@ -38,7 +38,7 @@ I box hanno gli stessi colori della dispensa:
 
 Tutte le pagine del sito, nell'ordine del menu: i capitoli con le loro sezioni e le altre pagine.
 
-## [Algoritmi euristici](heuristics.md)
+## [Principi](principi.md)
 
 - **[1. Algoritmi euristici: definizioni](heuristics.md)** · [Esercizi](esercizi/heuristics.md)
     - [1.1 Algoritmi euristici](heuristics.md#11-algoritmi-euristici)
@@ -51,6 +51,9 @@ Tutte le pagine del sito, nell'ordine del menu: i capitoli con le loro sezioni e
     - [1.8 Come valutare un algoritmo euristico](heuristics.md#sez-sec-evaluation)
     - [1.9 Errori tipici](heuristics.md#19-errori-tipici)
     - [1.10 In sintesi](heuristics.md#110-in-sintesi)
+
+## [Euristiche combinatorie](euristiche-combinatorie.md)
+
 - **[2. Euristiche costruttive](constructive-heuristics/index.md)** · [Esercizi](esercizi/constructive-heuristics.md)
     - [2.1 Euristiche costruttive](constructive-heuristics/index.md#sez-sec-constructive)
     - [2.2 I problemi e le ipotesi](constructive-heuristics/i-problemi-e-le-ipotesi.md#sez-sec-problems)
@@ -94,6 +97,9 @@ Tutte le pagine del sito, nell'ordine del menu: i capitoli con le loro sezioni e
     - [4.11 Confronto e conclusioni](metaheuristics/confronto-e-conclusioni.md)
     - [4.12 Errori tipici](metaheuristics/errori-tipici.md#412-errori-tipici)
     - [4.13 In sintesi](metaheuristics/errori-tipici.md#413-in-sintesi)
+
+## [Euristiche MIP](euristiche-mip.md)
+
 - **[5. Euristiche MIP per i problemi classici](mip-heuristics-classical.md)** · [Esercizi](esercizi/mip-heuristics-classical.md)
     - [5.1 Euristiche basate sulla PLI](mip-heuristics-classical.md#sez-sec-intro)
     - [5.2 I problemi e i loro modelli MIP](mip-heuristics-classical.md#sez-sec-models)

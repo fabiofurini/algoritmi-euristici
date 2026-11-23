@@ -42,59 +42,39 @@ Il simulated annealing sul TSP a 20 città: il miglior giro trovato sopra quello
 
 ## Le parti del corso
 
-I capitoli del corso, gli stessi della dispensa e del menu.
+Le stesse voci del menu: ogni scheda dice a quale parte e a quali capitoli della dispensa corrisponde.
 
 <div class="grid cards" markdown>
 
--   :material-scale-balance: **1. Algoritmi euristici: definizioni**
+-   :material-scale-balance: **Principi**
 
     ---
 
-    *Capitolo 1*
+    *Parte 1 · Capitolo 1*
 
-    I problemi e le ipotesi · Bound primali e duali · Classificazione degli algoritmi euristici · Rappresentazione delle soluzioni e spazio di ricerca
+    Definizioni
 
-    [:octicons-arrow-right-24: Leggi il capitolo](heuristics.md) · [Esercizi](esercizi/heuristics.md)
+    [:octicons-arrow-right-24: I capitoli](principi.md)
 
--   :material-hammer-wrench: **2. Euristiche costruttive**
-
-    ---
-
-    *Capitolo 2*
-
-    I problemi e le ipotesi · Il paradigma greedy · Il problema dello zaino 0/1: quale ordinamento? · Il problema del bin packing: prima ordinare, poi riempire
-
-    [:octicons-arrow-right-24: Leggi il capitolo](constructive-heuristics/index.md) · [Esercizi](esercizi/constructive-heuristics.md)
-
--   :material-magnify: **3. Ricerca locale**
+-   :material-hammer-wrench: **Euristiche combinatorie**
 
     ---
 
-    *Capitolo 3*
+    *Parte 2 · Capitoli 2–4*
 
-    I problemi, le ipotesi e le soluzioni di partenza · Ricerca locale: lo schema · Intorni per i quattro problemi · First improvement e best improvement
+    Euristiche costruttive · Ricerca locale · Metaeuristiche
 
-    [:octicons-arrow-right-24: Leggi il capitolo](local-search/index.md) · [Esercizi](esercizi/local-search.md)
+    [:octicons-arrow-right-24: I capitoli](euristiche-combinatorie.md)
 
--   :material-fire: **4. Metaeuristiche**
-
-    ---
-
-    *Capitolo 4*
-
-    I problemi e le ipotesi · Come uscire da un ottimo locale · Simulated annealing · Tabu search
-
-    [:octicons-arrow-right-24: Leggi il capitolo](metaheuristics/index.md) · [Esercizi](esercizi/metaheuristics.md)
-
--   :material-function-variant: **5. Euristiche MIP per i problemi classici**
+-   :material-function-variant: **Euristiche MIP**
 
     ---
 
-    *Capitolo 5*
+    *Parte 3 · Capitolo 5*
 
-    Euristiche basate sulla PLI · I problemi e i loro modelli MIP · Arrotondamento · Diving
+    Euristiche MIP
 
-    [:octicons-arrow-right-24: Leggi il capitolo](mip-heuristics-classical.md) · [Esercizi](esercizi/mip-heuristics-classical.md)
+    [:octicons-arrow-right-24: I capitoli](euristiche-mip.md)
 
 </div>
 

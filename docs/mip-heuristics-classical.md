@@ -6,7 +6,7 @@ title: "Euristiche MIP per i problemi classici"
 
 <div class="info-capitolo" markdown>
 
-**Algoritmi euristici · Capitolo 5** · [:material-file-pdf-box: Dispensa (PDF)](pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide](pdf/slide-mip-heuristics-classical.pdf) · [:material-pencil: Esercizi: Euristiche MIP](esercizi/mip-heuristics-classical.md)
+**Parte 3 · Euristiche MIP · Capitolo 5** · [:material-file-pdf-box: Dispensa (PDF)](pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide](pdf/slide-mip-heuristics-classical.pdf) · [:material-pencil: Esercizi: Euristiche MIP](esercizi/mip-heuristics-classical.md)
 
 </div>
 

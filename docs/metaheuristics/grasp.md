@@ -6,7 +6,7 @@ title: "GRASP"
 
 <div class="info-capitolo" markdown>
 
-**Algoritmi euristici · Capitolo 4** · [:material-book-open-variant: Capitolo 4: Metaeuristiche](index.md) · [:material-file-pdf-box: Dispensa (PDF)](../pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide (1/2)](../pdf/slide-metaheuristics-1.pdf) · [:material-presentation: Slide (2/2)](../pdf/slide-metaheuristics-2.pdf) · [:material-pencil: Esercizi: Metaeuristiche](../esercizi/metaheuristics.md) · [:material-gesture-tap: App: TSP: simulated annealing e tabu search](../laboratorio/simulated-annealing-tabu-search.md)
+**Parte 2 · Euristiche combinatorie · Capitolo 4** · [:material-book-open-variant: Capitolo 4: Metaeuristiche](index.md) · [:material-file-pdf-box: Dispensa (PDF)](../pdf/dispensa-1-algoritmi-euristici.pdf) · [:material-presentation: Slide (1/2)](../pdf/slide-metaheuristics-1.pdf) · [:material-presentation: Slide (2/2)](../pdf/slide-metaheuristics-2.pdf) · [:material-pencil: Esercizi: Metaeuristiche](../esercizi/metaheuristics.md) · [:material-gesture-tap: App: TSP: simulated annealing e tabu search](../laboratorio/simulated-annealing-tabu-search.md)
 
 </div>
 
